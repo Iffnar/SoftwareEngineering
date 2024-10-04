@@ -1,6 +1,8 @@
 package org.hbrs.se1.ws24.exercises.uebung1.control;
 
-public class GermanTranslator implements Translator {
+import java.util.HashMap;
+
+public class GermanTranslator extends translatorFactory implements Translator {
 
 	public String date = "Okt/2024"; // Default-Wert
 
@@ -9,8 +11,22 @@ public class GermanTranslator implements Translator {
 	 */
 	public String translateNumber( int number ) {
 		// [ihr Source Code aus Übung 1-2]
-
-		return "null";
+		if(number < 1 || number > 10) {
+			return "Zahl falsch";
+		}
+		HashMap<Integer, String>  numbers = new HashMap<>();{
+			numbers.put(1, "Eins");
+			numbers.put(2, "Zwei");
+			numbers.put(3, "Drei");
+			numbers.put(4, "Vier");
+			numbers.put(5, "Fünf");
+			numbers.put(6, "Sechs");
+			numbers.put(7, "Sieben");
+			numbers.put(8, "Acht");
+			numbers.put(9, "Neun");
+			numbers.put(10, "Zehn");
+		}
+		return numbers.get(number);
 	}
 
 	/**

@@ -1,6 +1,11 @@
 package org.hbrs.se1.ws24.exercises.uebung1.view;
 
-public class Client {
+
+import com.sun.java.accessibility.util.Translator;
+import org.hbrs.se1.ws24.exercises.uebung1.control.GermanTranslator;
+import org.hbrs.se1.ws24.exercises.uebung1.control.translatorFactory;
+
+public class Client  extends translatorFactory {
 
 		/**
 		 * Methode zur Ausgabe einer Zahl auf der Console
@@ -13,11 +18,14 @@ public class Client {
 			// aufgerufen werden.
 			//
 			// Strenge Implementierung (nur) gegen das Interface Translator gewuenscht!
+			 GermanTranslator trans = translatorFactory.createGermanTranslator();
+			 String number = trans.translateNumber(aNumber);
 
-			 System.out.println("Das Ergebnis der Berechnung: " +
+			 System.out.println("Das Ergebnis der Berechnung: " + number +
 					"[das Ergebnis an dieser Stelle]" );
 
 		 }
+
 }
 
 
