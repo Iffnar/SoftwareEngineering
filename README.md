@@ -1,5 +1,5 @@
 ## GitHub-Seite der Veranstaltung SE-1 (Code-Repository)
-
+ÜBUNG1:
 Beantwortete Fragen:
 
 1)
