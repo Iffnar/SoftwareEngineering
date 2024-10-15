@@ -31,7 +31,7 @@ public String deleteMember(Integer id) {
 
 public void dump() {
     for(Member m: list) {
-        System.out.println("Member (ID ="+m.getID()+")");
+        System.out.println(m.toString());
     }
 }
 public int size() {
