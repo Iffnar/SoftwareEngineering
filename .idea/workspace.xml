@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="add solutions for task 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/ConcreteMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/ConcreteMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +205,10 @@
       <workItem from="1728725632819" duration="149000" />
       <workItem from="1728725846234" duration="7282000" />
       <workItem from="1729021331872" duration="733000" />
+      <workItem from="1729173419527" duration="1129000" />
+      <workItem from="1729175007199" duration="20000" />
+      <workItem from="1729175393451" duration="15000" />
+      <workItem from="1729175456244" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="implement final solutions; Readme with answered questions and UML-pdf">
       <option name="closed" value="true" />
