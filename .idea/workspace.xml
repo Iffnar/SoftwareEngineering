@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="add solutions for task 2">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/MemberView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/test/ContainerStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/test/PathVerifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/test/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/test/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +96,21 @@
       <recent name="C:\Users\Iffnar\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest.testDump">
-    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ContainerStrategyTest">
+    <configuration name="PathVerifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.PathVerifier" />
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerStrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +119,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerTest" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerStrategyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest.testDeleteAllMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerStrategyTest.testInvalidFileLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +134,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerTest" />
-      <option name="METHOD_NAME" value="testDeleteAllMembers" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerStrategyTest" />
+      <option name="METHOD_NAME" value="testInvalidFileLocation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest.testDeleteExistingMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerStrategyTest.testNoStrategySet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +150,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerTest" />
-      <option name="METHOD_NAME" value="testDeleteExistingMember" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerStrategyTest" />
+      <option name="METHOD_NAME" value="testNoStrategySet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest.testDeleteNonExistingMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerStrategyTest.testRoundTrip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
@@ -144,24 +166,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerTest" />
-      <option name="METHOD_NAME" value="testDeleteNonExistingMember" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerTest.testDump" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerTest" />
-      <option name="METHOD_NAME" value="testDump" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.test.ContainerStrategyTest" />
+      <option name="METHOD_NAME" value="testRoundTrip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContainerTest.testDump" />
-        <item itemvalue="JUnit.ContainerTest.testDeleteAllMembers" />
-        <item itemvalue="JUnit.ContainerTest.testDeleteNonExistingMember" />
-        <item itemvalue="JUnit.ContainerTest" />
-        <item itemvalue="JUnit.ContainerTest.testDeleteExistingMember" />
+        <item itemvalue="JUnit.ContainerStrategyTest" />
+        <item itemvalue="JUnit.ContainerStrategyTest.testNoStrategySet" />
+        <item itemvalue="JUnit.ContainerStrategyTest.testInvalidFileLocation" />
+        <item itemvalue="Application.PathVerifier" />
+        <item itemvalue="JUnit.ContainerStrategyTest.testRoundTrip" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +215,8 @@
       <workItem from="1729175007199" duration="20000" />
       <workItem from="1729175393451" duration="15000" />
       <workItem from="1729175456244" duration="21000" />
+      <workItem from="1729176068357" duration="5890000" />
+      <workItem from="1729422032066" duration="9522000" />
     </task>
     <task id="LOCAL-00001" summary="implement final solutions; Readme with answered questions and UML-pdf">
       <option name="closed" value="true" />
@@ -234,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728736672620</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add solutions for task 2">
+      <option name="closed" value="true" />
+      <created>1729176090458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729176090458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

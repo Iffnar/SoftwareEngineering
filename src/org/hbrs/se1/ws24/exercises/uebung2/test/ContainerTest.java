@@ -16,7 +16,7 @@ public class ContainerTest {
 
 
     @BeforeEach void init() {
-        container = new Container();
+        container = Container.getInstance();
         a = new ConcreteMember(1);
         b = new ConcreteMember(2);
     }
@@ -57,7 +57,7 @@ public class ContainerTest {
     @Test void testDump() throws ContainerException {
         container.addMember(a);
         container.addMember(b);
-        container.dump();
+
     }
     @Test void testSize() throws ContainerException {
         container.addMember(a);
